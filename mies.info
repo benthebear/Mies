@@ -1,0 +1,8 @@
+; $Id:  $
+name = Mies
+description = Div-based, multi-column theme with a tribute to the great Architect. It depends on the Module "Ludwig", please install both.
+version = VERSION
+core = 6.x
+engine = phptemplate
+
+

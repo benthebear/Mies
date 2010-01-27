@@ -1,0 +1,559 @@
+/* ========== At first, set Defaults back to zero ========== */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,table,tr,td,thead,tbody{
+	margin:0px; 
+	padding:0px; 
+	font-weight:normal;
+	border:0px;
+}
+
+ul, ol, nl, dl{
+	padding-left:2em;
+}
+
+/* == Now the basics == */
+
+html, body{
+	font:100%/1.45 Georgia, serif;	
+	
+	
+}
+
+#arena{	
+	margin:auto;	
+}
+
+#arena-inner{
+	padding:0 10px 0 10px;
+}
+
+#thecenter{
+	width:710px;
+}
+
+#sidebar-right{
+	padding-left:20px;
+}
+
+#navibar{
+	float:right;
+	width:200px;
+	padding:
+}
+
+a{
+	text-decoration:none;
+}
+
+a:visited{
+   color: #8b31cc;
+}
+
+h1 a,
+h1 a:hover,
+h1 a:visited 
+h2 a,
+h2 a:hover,
+h2 a:visited{
+	color:black;	
+}
+
+.teaser h2.title{
+	
+}
+
+/* ========== Overriding System Settings  ========== */
+.node-unpublished {
+	background-color:white;
+}
+
+.node-form .standard {
+	clear:none;
+}
+
+tr.even{
+	background-color:#EEEEEE;
+} 
+
+tr.odd{
+	background-color:#F7F7F7;
+}
+
+.item-list ul.pager li{
+	margin:0pt 0pt 0.25em 0.1em;
+	padding:0.3em;
+}
+
+.item-list .pager {
+	text-align:left;
+}
+
+/* ==========  anmut und demut specific  ========== */
+
+.site-name {
+	/*background-image:url(http://anmutunddemut.de/themes/mies/anmutunddemut.jpg);
+	background- no-repeat center;*/
+}
+
+.node a:hover, .block a:hover{
+	text-decoration:underline;
+}
+
+#comments div.comment div.submitted {
+	color: #999;
+}
+
+#header{
+	width:100%;
+	
+	margin-bottom:2em;
+}
+
+#header h1{
+	width:100%;
+	text-align:center;
+	font-size:120%;
+	border-bottom:1px solid lightgrey;
+}
+
+
+#header h1 a{
+	color:grey;	
+}
+
+#header h1 a:hover{
+	color:black;
+}
+
+#logo img{
+	margin-top:4px;
+}
+
+#footer {
+	
+}
+
+
+
+/* ========== Common Block Elements ========== */
+
+td {
+	vertical-align:top;
+	padding: 2px;
+}
+
+
+
+
+/* ==========  Form Elements  ========== */
+
+.node form{
+	width: 710px;
+}
+
+fieldset{
+	padding:1em;
+	border:1px solid black;
+	margin-bottom:1em;
+}
+
+textarea, input{
+	border:1px solid black;
+}
+
+.node-form #edit-title-wrapper .form-text {
+	width:100%;
+}
+
+.resizable-textarea {
+	width:100%;
+}
+
+.form-submit{
+	font-family:Georgia;
+	font-size:100%;
+	
+}
+
+#edit-title{
+	font:200% Georgia, serif;
+}
+
+.node-form .form-text {
+	
+}
+
+#edit-body,
+#edit-teaser-js{
+	font-family:Georgia, sans-serif;
+	
+}
+
+.node-form .admin{
+	float:left;
+	width:220px;
+	margin-top:8em;
+}
+
+.node-form .standard{
+	width:470px;
+	float:right;
+	position:relative;
+	
+}
+
+.node-form .thebuttons{
+	
+	width:220px;
+}
+
+.node-form .thebuttons input{
+	width:220px;
+	padding:10px;
+	margin-bottom:0.3em;
+	
+}
+
+#edit-taxonomy-2-wrapper{
+	float:left;
+}
+
+#edit-taxonomy-4-wrapper{
+	float:right;
+	width:300px;
+}
+
+#edit-taxonomy-4{
+	width:300px;
+}
+
+#edit-taxonomy-tags-1-wrapper{
+	clear:both;
+}
+
+#user-login,
+#user-pass,
+#user-register {
+	width:50%;
+	margin-left:240px;
+}
+
+/* ========== Single Node  ========== */
+
+.node {
+	margin-bottom:3em;
+	min-height:250px;
+}
+
+
+
+.node .content{
+	margin-left:260px;
+	
+}
+
+.teaser p.readmore{
+	margin-top:-2em;
+}
+
+
+.node p, 
+.node ul,
+.node ol,
+.node dl,
+.comment p,
+.comment ul,
+.comment ol,
+.comment dl
+ {
+	margin-bottom:2em;
+}
+
+.node img {
+	max-width:450px;
+}
+
+
+
+
+
+/* ==========  Links  ========== */
+
+div.links{
+	clear:both;	
+	margin-bottom:3em;
+	margin-left:246px;
+	min-height:2em;
+}
+
+
+.full ul.links{
+	clear:both;
+	padding-left:0px;
+	margin-left:248px;
+}
+
+
+.teaser .links .comment_comments,
+.teaser .links .comment_add,
+.teaser .links .comment_forbidden,
+.teaser .links .statistics_counter,
+.moblogteaser .links .comment_comments,
+.moblogteaser .links .comment_add,
+.moblogteaser .links .comment_forbidden,
+.moblogteaser .links .statistics_counter{
+	float:right;
+}
+
+.node h3{
+	margin-bottom:1em;
+}
+
+blockquote{
+	padding-left:10px;
+	border-left:1px solid black; 
+}
+
+
+/* ========== Comments ========== */
+
+
+.comment {
+	clear:both;
+	margin-bottom:2em;	
+}
+
+.comment .content{
+	
+}
+
+.comment .submitted{
+	float:left;
+	
+}
+
+.comment .content,
+.comment h3,
+.comment div.links{
+	margin-left:260px;
+}
+
+.comment .content{	
+	
+}
+
+#edit-subject{
+	
+	font-family:Georgia, serife;
+}
+#user-login input,
+#user-register input,
+#user-pass input,
+#comment-form #edit-subject,
+#comment-form #edit-name,
+#comment-form #edit-mail,
+#comment-form #edit-homepage{
+	font-size:16px;	
+	font-family:Georgia, serife;
+	width:100%;
+}
+
+.node-form .form-text{
+	font-size:16px;
+}
+
+#comments #edit-comment {
+	
+	font-family:Georgia, serife;
+}
+
+
+/* ========== Comment Management Links  ========== */
+.comment div.links{
+	float:right;
+	margin-left:4em;
+	margin-right:-3.5em;
+	margin-top:-3em;
+
+}
+.comment ul.links li{
+	padding:0px !important;
+	display:block;
+}
+
+.comment ul.links li a{
+	color:grey;
+}
+
+.comment ul.links li a:hover{
+	color:black;
+	text-decoration:none;
+}
+
+
+#comments .box{
+	clear:both;
+	margin-left:260px;
+}
+
+#comments img{
+	
+}
+
+/* ========== Other  ========== */
+
+
+
+.feed-icon{
+	display:none;
+}
+
+.sticky {
+	
+}
+
+
+li.comment_add a, 
+li.comment_comments a,
+li.statistics_counter {
+	color:grey;
+}
+
+li.comment_add a:hover,
+li.comment_comments a:hover {
+	color:black;
+}
+
+/*  ==========  Blocks  ========== */
+
+
+.block{
+	clear:both;
+	margin-bottom:2em;
+	overflow:hidden;
+}
+
+.block h2{
+	font-size:110%;
+}
+
+#block-block-1 {
+	border-top:1px solid lightgrey;
+	
+	margin-bottom:2em;
+}
+
+
+block-block-1 h2{
+	display:none;
+}
+
+.block a{
+	color:grey;
+}
+
+.block a:hover{
+	color:black;
+	text-decoration:none;
+}
+
+.block ul {
+	margin-left:0px;
+	padding-left:0px;
+}
+
+.block ul ul {
+	padding-left:1em;
+}
+
+.block .item-list ul li,
+ul.menu li{
+	list-style-image:none;
+	list-style-type:none;
+	margin-left:0em;
+}
+
+li.leaf, li.collapsed, li.expanded{
+	list-style-image:none;
+	list-style-type:none;
+}
+
+#sidebar-right .block li{
+ margin-left:1em !important;
+}
+
+#navibar .block h2{
+	display:none;
+}
+
+#block-feedimporter-0{
+	
+	
+}
+
+#block-feedimporter-0 .first-row{
+	width:350px;
+	overflow:hidden;
+}
+	
+#block-comment-0{
+
+}
+
+#block-comment-0 .first-row{
+	width:350px;	
+}
+
+/*  ========== Very very Special Elements  ========== */
+
+.volleBreitseite,
+.bookmarkUrl{
+	margin-top:1em;	
+ 	margin-left:-260px;
+ 
+}
+
+.volleBreitseite img{
+	max-width:900px;
+}
+
+.marginalie{
+	margin-left:-248px;
+	float:left;
+}
+
+.marginalie img{
+	border:1px solid black;
+	padding:1px;
+	max-width:232px;
+}
+
+.done {
+	font-weight:bolder;
+	color:forestgreen;
+}
+
+.pending {
+	font-weight:bolder;
+	color:darkorange;
+}
+
+.failed {
+	font-weight:bolder;
+	color:darkred;
+}
+
+.teaserimage{
+	float:left;	
+	margin-left:-260px;
+}
+
+.teaserimage img{
+	width:230px;
+}
+
+/* Aged Articles */
+/*
+.age-1{
+	background-color:#faf5d5;
+}
+*/
